@@ -36,7 +36,7 @@ The first two steps can be changed to just download the project, by doing the fo
 1. Go to https://github.com/jeffmsnyder/numbers
 2. Select Clone or Download / Download ZIP
 3. Unzip project and place where project where it is to be located
-4. Continue with step 4 above.
+4. Continue with step 3 above.
 
 To run under IntelliJ:
 
