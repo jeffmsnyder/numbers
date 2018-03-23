@@ -48,20 +48,24 @@ To run under IntelliJ:
 
 Run the following command from the top level project directory (where the pom.xml file is):
 
+<pre>
 mvn clean package
+</pre>
 
 ## Running the tests
 
 To run the tests, use the following command:
 
+<pre>
 mvn clean test
+</pre>
 
-IntegerToEnglishWordConverterTest: tests converting an int to english words
-ParseIntegerTest: tests parsing input into an int
+1. IntegerToEnglishWordConverterTest: tests converting an int to english words
+2. ParseIntegerTest: tests parsing input into an int
 
 ### End to end tests
 
-NumbersTest: tests the complete application
+1. NumbersTest: tests the complete application
 
 ## Running from the command line after installation
 
@@ -69,35 +73,45 @@ NumbersTest: tests the complete application
 
 From the project directory, use numbers.bat.  An example of its use is as follows:
 
+<pre>
 numbers 45 3243 5434 -7754 000034 43244gd
+</pre>
 
 Output from the application is:
 
+<pre>
 Forty five
 Three thousand two hundred and forty three
 Five thousand four hundred and thirty four
 Negative seven thousand seven hundred and fifty four
 Thirty four
 Error: Non-numeric character in input.
+</pre>
 
 ### *nix
 
 This command must be run before the shell script can be used:
 
+<pre>
 chmod +x numbers.sh
+</pre>
 
 Then, the following is an example of its usage:
 
+<pre>
 ./numbers 45 3243 5434 -7754 000034 43244gd
+</pre>
 
 Output from the application is:
 
+<pre>
 Forty five
 Three thousand two hundred and forty three
 Five thousand four hundred and thirty four
 Negative seven thousand seven hundred and fifty four
 Thirty four
 Error: Non-numeric character in input.
+</pre>
 
 ## Usage
 
