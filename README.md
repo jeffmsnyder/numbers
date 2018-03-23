@@ -102,10 +102,10 @@ Error: Non-numeric character in input.
 ## Usage
 
 <code>
-usage: numbers [-h] [-n <arg>] [<integer1> <integer2>...]
-Converts integers into English words.
- -h,--help
- -n,--count <arg>   Number of integers to be read from standard input
+usage: numbers [-h] [-n <arg>] [<integer1> <integer2>...]<br>
+Converts integers into English words.<br>
+ -h,--help<br>
+ -n,--count <arg>   Number of integers to be read from standard input<br>
                     (ignored if integers on command line). Range: 1-1000
 </code>
 
