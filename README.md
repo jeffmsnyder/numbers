@@ -31,6 +31,13 @@ Prerequisite for running the app using IntelliJ IDEA:
 7. Verify that the Java 8 SDK is selected (version 1.8), click 'Next'
 8. Click 'Finished'
 
+The first two steps can be changed to just download the project, by doing the following:
+
+1. Go to https://github.com/jeffmsnyder/numbers
+2. Select Clone or Download / Download ZIP
+3. Unzip project and place where project where it is to be located
+4. Continue with step 4 above.
+
 To run under IntelliJ:
 
 1. Edit the configuration to run Numbers
@@ -75,7 +82,11 @@ Error: Non-numeric character in input.
 
 ### *nix
 
+This command must be run before the shell script can be used:
+
 chmod +x numbers.sh
+
+Then, the following is an example of its usage:
 
 ./numbers 45 3243 5434 -7754 000034 43244gd
 
